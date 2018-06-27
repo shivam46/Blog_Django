@@ -1,0 +1,61 @@
+p{
+    color: darkslateblue;
+}
+
+.home{
+	background-image: url(http://www.desktopimages.org/pictures/2012/1225/1/asking-alexandria-group-bands-concert-musician-instruments-musical-guitars-lights-fog-mist-haze-hard-rock-black-white-photography-men-males-images-152438.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+	backface-visibility: hidden;
+}
+
+
+.band{
+	text-align: center;
+	color: red;
+	font-size: 3em;
+	font-weight: 400;
+	font-family: 'Poiret One', cursive;
+}
+
+.hello{
+	padding: 0;
+	margin: 0;
+	overflow: hidden;
+	color: #fff;
+	text-align: center;
+	-webkit-transition: max-height 0.5s;
+	transition: max-height 0.5s;
+}
+
+.header{
+	max-width: 100%;
+	background: #222; /*FallBack*/
+	background: rgba(0,0,0,.6);
+	padding: 20px;
+}
+
+
+.nav-item{
+	color: mistyrose;
+	display: inline-block;
+	padding: 20px;
+	font-size: 2.0em;
+	-webkit-transition: background .5s;
+	transition: background .5s
+}
+
+.container{
+	max-width: 1020px;
+	margin: 0 auto;
+	padding: 20px;
+}
+
+.nav-item:hover{
+	background: #474747;
+	cursor: pointer;
+}
+
+.comment-reply{
+	display: none;
+}
